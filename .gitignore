@@ -24,5 +24,8 @@
 *.fls
 *.odt#
 
+#
+Rpolyhedra-Imaginary.pdf
+
 #osX
 **/.DS_Store
