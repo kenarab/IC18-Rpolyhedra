@@ -1,4 +1,12 @@
+#tex
 *.aux
+*.log
+*.out
+*.dvi
+*.pdf
+
+#osX
+**/.DS_Store*.aux
 *.glo
 *.idx
 *.log

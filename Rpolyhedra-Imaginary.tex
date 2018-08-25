@@ -51,9 +51,10 @@ Business Administration Specialist \\
 
 %Please add a short description of yourself for our conference program (max. 3 sentences). We appreciate to receive a low-resolution photo of you for the conference website. If you agree, please upload your photo as a separate file in the submission form.
 
-As part of the studies to create new ways to construct space frames, we needed to analyze polyhedra and its properties, but - although we found out that some of the most interesting and open source alternatives were not maintained and relied on formats that are not currently used, which would require an effort to process those files to produce a viable visualization. For example, Netlib's Polyhedra\cite{NETLIB}, by Andrew Hume and Visual Polyhedra\cite{DMCCOOEY} by David McCooey. 
 
-With that in mind, we created a standards based R package, which is available on the CRAN Repository as "Rpolyhedra" and enables users to handle and explore polyhedra with minimum effort. Furthermore, as part of the effort, we also created a web based representation\cite{RPOLY_EXPLORER}.
+
+
+
      
 
 \section{Information about the talk}
@@ -76,6 +77,21 @@ With that in mind, we created a standards based R package, which is available on
 %Describe here the content of your talk: State the main questions you address in your talk, describe the background of these questions and your main ideas. You can write max. 2 pages excluding references.
 
 %Pictures with meaningful relation to your topic are welcome, but not mandatory. If you send us pictures, please give information about its copyright and permissions to publish it on a website, see Figure 1.
+
+
+Fill the world with polyhedra
+
+As part of a project aimed to simplify the access to an open design framework based on polyhedra and tesselations, we needed to retrieve internet information about geometry definitions. The work involved the transformation of the data in each source format to a common representation (which can lead to a standard proposal for data exchange) which constitutes a polyhedra database.  
+
+With that in mind, we created a standards based R package, which is available on the CRAN Repository as "Rpolyhedra" and enables users to handle and explore +800 polyhedra definitions with minimum effort, and a web explorer \cite{RPOLY_EXPLORER} to lower the burden for non-technical users.
+
+
+The IC18 talk will focus on the unlocking possibilites derived from the availability of polyhedra constructive methods based on 3D printing and other DIY-technologies for the whole Rpolyhedra database. The participants of the talk will be able to construct from the models available for their exhibits, providing educational resources as well. And we hope, to imagine, design and share different constructive methods to improve the experience about polyhedra out of the screen and the notebook, into the world, playing with the hands.
+
+The talk will cover some basic notions about polyhedra and classifications. But will focus on the process of building the database, more a data science project than a mathematical research. Although we found out that some of the most interesting and open source alternatives were not maintained, we migrated, started a curation process and make publicly available the contents to allow new approaches and developments.
+
+The sources currently available are Netlib's Polyhedra\cite{NETLIB}, by Andrew Hume and Visual Polyhedra\cite{DMCCOOEY} by David McCooey. Other databases where found but didn't provide new information (cita polyhedra.js cita George Hart, cita Wolfram Alpha, cita wikipedia). One special case is polymake, a language for polyhedra .
+
 A guide through the experience of compiling information from free sources to make a tool that can be used to learn and explore polyhedra in an intuitive way, the lessons learnt and how that can improve the knowledge available to the general public. The compiled library is comprised by over 800 polyhedra from different sources, and can be easily extended to include new libraries, due to the fact that the code to scrape the included sources are shipped with the R package. 
 
 Along with the creation of the library, the talk will continue with our experiences on taking its lessons to the next level, and our experience on Augmented Reality and 3D printing which lead us to the creation of a unique node model that can be used to construct polyhedra out of drinking straws for easy prototyping.  
